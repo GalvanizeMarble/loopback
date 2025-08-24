@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <!-- Changed the title to 'Lo0' -->
   <title>Lo0</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,6 +30,10 @@
       line-height: 1.6;
       font-weight: 400; 
     }
+    /* Added a new style to control the width of the summary */
+    .summary-text {
+      max-width: 75ch; /* 'ch' is a unit relative to the width of the "0" character */
+    }
     a {
       color: #00ccff;
       text-decoration: none;
@@ -45,7 +48,8 @@
   <p>network engineer – architecture & operations</p>
 
   <h2>summary</h2>
-  <p>engineer with operational and design experience across Tier 1 backbone, cellular core, FTTH, fixed wireless, SCADA and data centers [traditional & spine-leaf]. Led full lifecycle projects and recurring programs across greenfield builds, redesigns and legacy migrations, including end-of-life chassis replacements, platform transitions and sustainment efforts in production networks.</p>
+  <!-- Added the "summary-text" class to this paragraph -->
+  <p class="summary-text">engineer with operational and design experience across Tier 1 Backbone, cellular core, FTTH, fixed wireless, SCADA and data centers [traditional & spine-leaf]. Led full lifecycle projects and recurring programs across greenfield builds, redesigns and legacy migrations, including end-of-life chassis replacements, platform transitions and sustainment efforts in production networks.</p>
 
   <h2>skills</h2>
   <p>
@@ -56,6 +60,6 @@
   </p>
 
   <h2>contact</h2>
-  <p>email: <a href="mailto:Lo0@loopback.sh">Lo0@loopback.sh</a></p>
+  <p>email: <a href="mailto:connect@loopback.sh">connect@loopback.sh</a></p>
 </body>
 </html>
